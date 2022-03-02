@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.top-container{
+  background-color: #FDEBF7;
+  position: relative;
+  padding-top: 110px;
+}
+h1{
+  margin-top: 0;
+  font-family: 'Seaweed Script', cursive;
+}
+.und{
+  text-decoration: underline;
+}
+#mountainscale{
+  width: 100%;
+}
+.bottom-cloud{
+  position: absolute;
+  left:500px;
+}
+.upper-cloud{
+  position: absolute;
+  left:0;
+}
