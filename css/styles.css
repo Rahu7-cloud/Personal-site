@@ -6,14 +6,30 @@ body{
 .top-container{
   background-color: #FDEBF7;
   position: relative;
-  padding-top: 110px;
+  padding-top: 80px;
 }
 h1{
-  margin-top: 0;
+  margin: 50px auto 0 auto;
   font-family: 'Seaweed Script', cursive;
+  font-size: 5rem;
+  color: #6a3464;
+  font-weight: normal;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #B34180;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #822659;
 }
 .und{
   text-decoration: underline;
+}
+a{
+  color: #822659;
 }
 #mountainscale{
   width: 100%;
@@ -25,4 +41,31 @@ h1{
 .upper-cloud{
   position: absolute;
   left:0;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-code{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-edit{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 3%;
+  border-width: 5px;
+  border-color: grey;
+}
+.profile{
+  width: 50%;
+  margin: auto;
 }
